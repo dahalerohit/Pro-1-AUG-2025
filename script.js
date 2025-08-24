@@ -11,7 +11,7 @@ function PrintDeveloperbyMap() {
    let developer = arr.filter(kamgar => kamgar.profession === "developer");
    let developername = developer.map(developer => developer.name);
    console.log(developername); 
-
+}
 
 
 function PrintDeveloperbyForEach() {
@@ -31,7 +31,7 @@ function addData() {
   console.log("Added employee:", newEmployee);
 }
 
-}
+
 
 function removeAdmin() {
   //Write your code here, just console.log
